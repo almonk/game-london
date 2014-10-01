@@ -1,0 +1,37 @@
+/* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+.nav {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999;
+  height: 90px;
+  line-height: 90px;
+  background: -webkit-image-set(url("/images/navbg.png") 1x, url("/images/navbg@2x.png") 2x); }
+
+/* line 13, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+.nav__item {
+  width: 24%;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  height: 90px;
+  line-height: 90px;
+  text-transform: lowercase;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Permanent Marker', cursive;
+  transform: rotate(-1deg); }
+
+@media only screen and (max-width: 800px) {
+  /* line 28, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+  .nav {
+    height: 60px;
+    line-height: 60px; }
+
+  /* line 33, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+  .nav__item {
+    width: 23%;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px; } }
