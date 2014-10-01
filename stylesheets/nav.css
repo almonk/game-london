@@ -15,23 +15,22 @@
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 14px;
   height: 90px;
   line-height: 90px;
-  text-transform: lowercase;
+  text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Permanent Marker', cursive;
-  transform: rotate(-1deg); }
+  font-family: 'Montserrat', sans-serif; }
 
 @media only screen and (max-width: 800px) {
-  /* line 28, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+  /* line 27, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
   .nav {
     height: 60px;
     line-height: 60px; }
 
-  /* line 33, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+  /* line 32, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
   .nav__item {
     width: 23%;
-    font-size: 18px;
+    font-size: 14px;
     height: 60px;
     line-height: 60px; } }
