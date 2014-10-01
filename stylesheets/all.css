@@ -423,15 +423,33 @@ body{
   text-align:center;
 }
 section {
-  background:#9ed100;
+  background:#000;
   border-bottom: 1px solid black;
 }
 .not-fullscreen {
     height:50%;
 }
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+.slide {
+  background-color: #000; }
+
+/* line 5, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
 .slide--grouse {
   background-image: url("/game-london/images/slide1.jpg"); }
+/* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
+.type-p {
+  font-family: serif;
+  line-height: 34px;
+  max-width: 800px;
+  font-size: 26px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 40px; }
+
+/* line 11, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
+.type--quote {
+  font-style: italic; }
+
 
 
 

@@ -1,0 +1,13 @@
+/* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
+.type-p {
+  font-family: serif;
+  line-height: 34px;
+  max-width: 800px;
+  font-size: 26px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 40px; }
+
+/* line 11, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
+.type--quote {
+  font-style: italic; }

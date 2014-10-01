@@ -1,3 +1,7 @@
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+.slide {
+  background-color: #000; }
+
+/* line 5, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
 .slide--grouse {
   background-image: url("/game-london/images/slide1.jpg"); }
