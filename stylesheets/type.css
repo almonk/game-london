@@ -1,9 +1,9 @@
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
 .type-p {
-  font-family: serif;
+  font-family: 'Libre Baskerville', serif;
   line-height: 34px;
   max-width: 800px;
-  font-size: 26px;
+  font-size: 22px;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   margin-bottom: 40px; }
