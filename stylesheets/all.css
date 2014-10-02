@@ -439,9 +439,9 @@ section {
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
 .type-p {
   font-family: 'Libre Baskerville', serif;
-  line-height: 34px;
+  line-height: 30px;
   max-width: 800px;
-  font-size: 22px;
+  font-size: 18px;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   margin-bottom: 40px; }
@@ -3617,10 +3617,11 @@ Copyright (c) 2014 Daniel Eden
 }
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */
 .logo {
-  max-width: 350px; }
+  max-width: 550px;
+  padding-top: 25%; }
 
 @media only screen and (max-width: 800px) {
-  /* line 6, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */
+  /* line 7, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */
   .logo {
     max-width: 100%;
     margin: 0px 60px; } }

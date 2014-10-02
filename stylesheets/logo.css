@@ -1,9 +1,10 @@
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */
 .logo {
-  max-width: 350px; }
+  max-width: 550px;
+  padding-top: 25%; }
 
 @media only screen and (max-width: 800px) {
-  /* line 6, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */
+  /* line 7, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */
   .logo {
     max-width: 100%;
     margin: 0px 60px; } }
