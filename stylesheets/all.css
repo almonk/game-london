@@ -3660,6 +3660,19 @@ Copyright (c) 2014 Daniel Eden
     font-size: 14px;
     height: 60px;
     line-height: 60px; } }
+/* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__link {
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  margin: 0px 5px;
+  margin-top: 2px; }
+
+/* line 9, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__link img {
+  width: 30px;
+  vertical-align: middle; }
+
 
 
 
