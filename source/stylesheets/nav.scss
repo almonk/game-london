@@ -1,0 +1,38 @@
+.nav {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999;
+  height: 90px;
+  line-height: 90px;
+  background: -webkit-image-set( url(image-path('navbg.png')) 1x,
+                                  url(image-path('navbg@2x.png')) 2x );
+}
+
+.nav__item {
+  width: 24%;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  height: 90px;
+  line-height: 90px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width:800px) {
+  .nav {
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .nav__item  {
+    width: 23%;
+    font-size:14px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
