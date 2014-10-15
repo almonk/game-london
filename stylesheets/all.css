@@ -460,16 +460,23 @@ section {
   margin-bottom: 32px; }
 
 /* line 11, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
+.type-p--narrow {
+  max-width: 600px; }
+
+/* line 15, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
 .type--quote {
   font-style: italic; }
 
 @media only screen and (max-width: 800px) {
-  /* line 16, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
+  /* line 20, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
   .type-p {
     line-height: 22px;
     font-size: 14px;
     padding: 0px 20px;
-    margin-top: 40px; } }
+    margin-top: 40px; }
+    /* line 26, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
+    .type-p a {
+      color: #fff; } }
 
 /*!
 Animate.css - http://daneden.me/animate
