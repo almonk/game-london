@@ -433,9 +433,21 @@ section {
 .slide {
   background-color: #000; }
 
-/* line 6, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+/* line 5, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
 .slide--grouse {
   background-image: url("/images/slide1.jpg"); }
+
+/* line 9, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+.slide--grouse2 {
+  background-image: url("/images/slide2.jpg"); }
+
+/* line 13, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+.slide--shell {
+  background-image: url("/images/slide3.jpg"); }
+
+/* line 17, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+.slide--grouse3 {
+  background-image: url("/images/slide4.jpg"); }
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
 .type-p {
   font-family: 'Libre Baskerville', serif;
@@ -454,7 +466,7 @@ section {
   /* line 16, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
   .type-p {
     line-height: 22px;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0px 20px;
     margin-top: 40px; } }
 
@@ -3618,7 +3630,7 @@ Copyright (c) 2014 Daniel Eden
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */
 .logo {
   max-width: 550px;
-  padding-top: 25%; }
+  padding-top: 5%; }
 
 @media only screen and (max-width: 800px) {
   /* line 7, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */
@@ -3629,14 +3641,26 @@ Copyright (c) 2014 Daniel Eden
 .nav {
   position: fixed;
   bottom: 0px;
-  left: 0px;
+  left: 50%;
   right: 0px;
   z-index: 999;
   height: 90px;
   line-height: 90px;
-  background: -webkit-image-set(url("/images/navbg.png") 1x, url("/images/navbg@2x.png") 2x); }
+  width: 600px;
+  margin-left: -300px; }
 
-/* line 13, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+/* line 14, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+.nav-container {
+  background: -webkit-image-set(url("/images/navbg.png") 1x, url("/images/navbg@2x.png") 2x);
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999;
+  height: 90px;
+  line-height: 90px; }
+
+/* line 27, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
 .nav__item {
   width: 24%;
   display: inline-block;
@@ -3650,15 +3674,19 @@ Copyright (c) 2014 Daniel Eden
   font-family: 'Montserrat', sans-serif; }
 
 @media only screen and (max-width: 800px) {
-  /* line 27, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+  /* line 42, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
   .nav {
     height: 60px;
-    line-height: 60px; }
+    line-height: 60px;
+    width: 100%;
+    margin-left: 0px;
+    left: 0%; }
 
-  /* line 32, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+  /* line 50, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
   .nav__item {
-    width: 23%;
-    font-size: 14px;
+    width: auto;
+    padding: 0px 10px;
+    font-size: 12px;
     height: 60px;
     line-height: 60px; } }
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
@@ -3673,6 +3701,40 @@ Copyright (c) 2014 Daniel Eden
 .social__link img {
   width: 30px;
   vertical-align: middle; }
+
+/* line 14, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__nav {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  width: 30px;
+  z-index: 999;
+  overflow: hidden;
+  height: 212px;
+  margin-top: -106px; }
+
+/* line 25, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__nav__link {
+  display: block;
+  clear: both;
+  height: 50px; }
+
+/* line 31, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__mobile {
+  display: none; }
+
+/* line 35, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__nav__link img {
+  width: 30px; }
+
+@media only screen and (max-width: 800px) {
+  /* line 40, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+  .social__nav {
+    display: none; }
+
+  /* line 44, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+  .social__mobile {
+    display: block; } }
 
 
 

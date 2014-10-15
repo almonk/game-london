@@ -1,7 +1,7 @@
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */
 .logo {
   max-width: 550px;
-  padding-top: 25%; }
+  padding-top: 5%; }
 
 @media only screen and (max-width: 800px) {
   /* line 7, /Users/alasdairmonk/Sites/game/source/stylesheets/logo.scss */

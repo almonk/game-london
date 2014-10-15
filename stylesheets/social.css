@@ -10,3 +10,37 @@
 .social__link img {
   width: 30px;
   vertical-align: middle; }
+
+/* line 14, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__nav {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  width: 30px;
+  z-index: 999;
+  overflow: hidden;
+  height: 212px;
+  margin-top: -106px; }
+
+/* line 25, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__nav__link {
+  display: block;
+  clear: both;
+  height: 50px; }
+
+/* line 31, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__mobile {
+  display: none; }
+
+/* line 35, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+.social__nav__link img {
+  width: 30px; }
+
+@media only screen and (max-width: 800px) {
+  /* line 40, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+  .social__nav {
+    display: none; }
+
+  /* line 44, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
+  .social__mobile {
+    display: block; } }

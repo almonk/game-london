@@ -2,6 +2,18 @@
 .slide {
   background-color: #000; }
 
-/* line 6, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+/* line 5, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
 .slide--grouse {
   background-image: url("/images/slide1.jpg"); }
+
+/* line 9, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+.slide--grouse2 {
+  background-image: url("/images/slide2.jpg"); }
+
+/* line 13, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+.slide--shell {
+  background-image: url("/images/slide3.jpg"); }
+
+/* line 17, /Users/alasdairmonk/Sites/game/source/stylesheets/slide.scss */
+.slide--grouse3 {
+  background-image: url("/images/slide4.jpg"); }
