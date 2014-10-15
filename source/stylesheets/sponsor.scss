@@ -1,0 +1,30 @@
+.sponsor__link {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.sponsor__link--jameson img {
+  width: 158px;
+}
+
+.sponsor__link--uber img {
+  width: 221px;
+  position: relative;
+  top: -17px;
+  margin-left: 30px;
+}
+
+@media only screen and (max-width:800px) {
+  .sponsor__link--jameson img {
+    width: 110px;
+    display: block;
+    clear: both;
+  }
+
+  .sponsor__link--uber img {
+    width: 110px;
+    display: block;
+    clear: both;
+  }
+
+}

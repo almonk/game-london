@@ -1,8 +1,19 @@
 .slide {
   background-color: #000;
-
 }
 
 .slide--grouse {
   background-image: url(image-path('slide1.jpg'));
+}
+
+.slide--grouse2 {
+  background-image: url(image-path('slide2.jpg'));
+}
+
+.slide--shell {
+  background-image: url(image-path('slide3.jpg'));
+}
+
+.slide--grouse3 {
+  background-image: url(image-path('slide4.jpg'));
 }

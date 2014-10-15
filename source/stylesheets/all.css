@@ -6,3 +6,10 @@
 //= require logo
 //= require nav
 //= require social
+//= require sponsor
+//= require hr
+//= require form
+
+* {
+  box-sizing: border-box;
+}

@@ -10,3 +10,38 @@
   width: 30px;
   vertical-align: middle;
 }
+
+.social__nav {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  width: 30px;
+  z-index: 999;
+  overflow: hidden;
+  height: 212px;
+  margin-top: -106px;
+}
+
+.social__nav__link {
+  display: block;
+  clear: both;
+  height: 50px;
+}
+
+.social__mobile {
+  display: none;
+}
+
+.social__nav__link img {
+  width: 30px;
+}
+
+@media only screen and (max-width:800px) {
+  .social__nav {
+    display: none;
+  }
+
+  .social__mobile {
+    display: block;
+  }
+}

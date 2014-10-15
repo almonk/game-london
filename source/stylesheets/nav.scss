@@ -1,13 +1,27 @@
 .nav {
   position: fixed;
   bottom: 0px;
+  left: 50%;
+  right: 0px;
+  z-index: 999;
+  height: 90px;
+  line-height: 90px;
+
+  width: 600px;
+  margin-left: -300px;
+}
+
+.nav-container {
+  background: -webkit-image-set( url(image-path('navbg.png')) 1x,
+                                  url(image-path('navbg@2x.png')) 2x );
+
+  position: fixed;
+  bottom: 0px;
   left: 0px;
   right: 0px;
   z-index: 999;
   height: 90px;
   line-height: 90px;
-  background: -webkit-image-set( url(image-path('navbg.png')) 1x,
-                                  url(image-path('navbg@2x.png')) 2x );
 }
 
 .nav__item {
@@ -23,15 +37,20 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+
 @media only screen and (max-width:800px) {
   .nav {
     height: 60px;
     line-height: 60px;
+    width: 100%;
+    margin-left: 0px;
+    left: 0%;
   }
 
   .nav__item  {
-    width: 23%;
-    font-size:14px;
+    width: auto;
+    padding: 0px 10px;
+    font-size:12px;
     height: 60px;
     line-height: 60px;
   }

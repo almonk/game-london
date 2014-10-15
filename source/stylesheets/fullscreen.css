@@ -5,6 +5,7 @@
     background-position:50% 50%;
     /* ie8- graceful degradation */
     background-position:50% 50%\9 !important;
+    background-color: #000;
 }
 
 /* fullscreen setup */

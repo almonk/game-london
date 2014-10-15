@@ -1,0 +1,10 @@
+.hr img {
+  width: 583px;
+  margin: -40px 0px;
+}
+
+@media only screen and (max-width:800px) {
+  .hr img {
+    display: none;
+  }
+}
