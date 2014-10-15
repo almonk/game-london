@@ -1,0 +1,28 @@
+/* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+.sponsor__link {
+  margin-top: 30px;
+  display: inline-block; }
+
+/* line 6, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+.sponsor__link--jameson img {
+  width: 158px; }
+
+/* line 10, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+.sponsor__link--uber img {
+  width: 221px;
+  position: relative;
+  top: -17px;
+  margin-left: 30px; }
+
+@media only screen and (max-width: 800px) {
+  /* line 18, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+  .sponsor__link--jameson img {
+    width: 110px;
+    display: block;
+    clear: both; }
+
+  /* line 24, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+  .sponsor__link--uber img {
+    width: 110px;
+    display: block;
+    clear: both; } }

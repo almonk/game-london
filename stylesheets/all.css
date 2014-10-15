@@ -451,12 +451,12 @@ section {
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
 .type-p {
   font-family: 'Libre Baskerville', serif;
-  line-height: 30px;
+  line-height: 27px;
   max-width: 800px;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
-  margin-bottom: 40px; }
+  margin-bottom: 32px; }
 
 /* line 11, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
 .type--quote {
@@ -3735,6 +3735,100 @@ Copyright (c) 2014 Daniel Eden
   /* line 44, /Users/alasdairmonk/Sites/game/source/stylesheets/social.scss */
   .social__mobile {
     display: block; } }
+/* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+.sponsor__link {
+  margin-top: 30px;
+  display: inline-block; }
+
+/* line 6, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+.sponsor__link--jameson img {
+  width: 158px; }
+
+/* line 10, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+.sponsor__link--uber img {
+  width: 221px;
+  position: relative;
+  top: -17px;
+  margin-left: 30px; }
+
+@media only screen and (max-width: 800px) {
+  /* line 18, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+  .sponsor__link--jameson img {
+    width: 110px;
+    display: block;
+    clear: both; }
+
+  /* line 24, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+  .sponsor__link--uber img {
+    width: 110px;
+    display: block;
+    clear: both; } }
+/* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/hr.scss */
+.hr img {
+  width: 583px;
+  margin: -40px 0px; }
+
+@media only screen and (max-width: 800px) {
+  /* line 7, /Users/alasdairmonk/Sites/game/source/stylesheets/hr.scss */
+  .hr img {
+    display: none; } }
+/* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/form.scss */
+form {
+  padding: 0px;
+  margin: 0px;
+  margin: -40px 0px;
+  margin-bottom: -80px; }
+
+/* line 8, /Users/alasdairmonk/Sites/game/source/stylesheets/form.scss */
+input[type=text], input[type=email] {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid white;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  transition: background 1s;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  width: 210px;
+  font-family: 'Montserrat', sans-serif; }
+  /* line 21, /Users/alasdairmonk/Sites/game/source/stylesheets/form.scss */
+  input[type=text]:focus, input[type=email]:focus {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8); }
+
+/* line 27, /Users/alasdairmonk/Sites/game/source/stylesheets/form.scss */
+button[type=submit] {
+  background-color: #fff;
+  color: #070303;
+  border: 0px;
+  -webkit-appearance: none;
+  font-size: 14px;
+  padding: 9px 13px;
+  margin-left: 8px;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif; }
+
+@media only screen and (max-width: 800px) {
+  /* line 43, /Users/alasdairmonk/Sites/game/source/stylesheets/form.scss */
+  form {
+    width: 100%;
+    padding: 20px; }
+
+  /* line 48, /Users/alasdairmonk/Sites/game/source/stylesheets/form.scss */
+  input[type=text], input[type=email] {
+    display: block;
+    width: 100%; }
+
+  /* line 53, /Users/alasdairmonk/Sites/game/source/stylesheets/form.scss */
+  button[type=submit] {
+    display: block;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 100%; } }
 
 
 
@@ -3743,3 +3837,10 @@ Copyright (c) 2014 Daniel Eden
 
 
 
+
+
+
+
+* {
+  box-sizing: border-box;
+}

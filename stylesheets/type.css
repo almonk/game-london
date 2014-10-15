@@ -1,12 +1,12 @@
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
 .type-p {
   font-family: 'Libre Baskerville', serif;
-  line-height: 30px;
+  line-height: 27px;
   max-width: 800px;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
-  margin-bottom: 40px; }
+  margin-bottom: 32px; }
 
 /* line 11, /Users/alasdairmonk/Sites/game/source/stylesheets/type.scss */
 .type--quote {
