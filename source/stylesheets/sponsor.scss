@@ -4,13 +4,20 @@
 }
 
 .sponsor__link--jameson img {
-  width: 158px;
+  width: 140px;
 }
 
 .sponsor__link--uber img {
-  width: 221px;
+  width: 170px;
   position: relative;
   top: -17px;
+  margin-left: 30px;
+}
+
+.sponsor__link--airbnb img {
+  width: 170px;
+  position: relative;
+  top: -5px;
   margin-left: 30px;
 }
 
@@ -25,6 +32,13 @@
     width: 110px;
     display: block;
     clear: both;
+  }
+
+  .sponsor__link--uber img {
+    width: 110px;
+    display: block;
+    clear: both;
+    margin-left: 0px;
   }
 
 }
