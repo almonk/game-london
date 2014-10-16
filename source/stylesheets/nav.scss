@@ -14,7 +14,6 @@
 .nav-container {
   background: -webkit-image-set( url(image-path('navbg.png')) 1x,
                                   url(image-path('navbg@2x.png')) 2x );
-
   position: fixed;
   bottom: 0px;
   left: 0px;
@@ -25,7 +24,8 @@
 }
 
 .nav__item {
-  width: 24%;
+  width: auto;
+  padding: 0px 25px;
   display: inline-block;
   color: #fff;
   text-decoration: none;

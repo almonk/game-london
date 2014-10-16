@@ -75,4 +75,5 @@ end
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.remote   = 'git@github.com:almonk/game-london.git' # remote name or git url, default: origin
+  deploy.build_before = true
 end
