@@ -412,6 +412,7 @@ html, body {
   position:relative;
   vertical-align:middle;
   text-align:center;
+  padding: 80px 0;
 }
 
 /* visual styles */
