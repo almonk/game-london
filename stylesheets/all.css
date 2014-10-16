@@ -3669,9 +3669,10 @@ Copyright (c) 2014 Daniel Eden
   height: 90px;
   line-height: 90px; }
 
-/* line 27, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
+/* line 26, /Users/alasdairmonk/Sites/game/source/stylesheets/nav.scss */
 .nav__item {
-  width: 24%;
+  width: auto;
+  padding: 0px 25px;
   display: inline-block;
   color: #fff;
   text-decoration: none;
