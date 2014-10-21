@@ -3756,27 +3756,27 @@ Copyright (c) 2014 Daniel Eden
 
 /* line 10, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
 .sponsor__link--uber img {
-  width: 170px;
+  width: 140px;
   position: relative;
-  top: -17px;
+  top: -16px;
   margin-left: 30px; }
 
 /* line 17, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
 .sponsor__link--airbnb img {
-  width: 170px;
+  width: 150px;
   position: relative;
   top: -5px;
   margin-left: 30px; }
 
-@media only screen and (max-width: 800px) {
-  /* line 25, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
-  .sponsor__link--jameson img {
-    width: 110px;
-    display: block;
-    clear: both; }
+/* line 24, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
+.sponsor__link--lecreuset img {
+  width: 200px;
+  position: relative;
+  top: -5px; }
 
+@media only screen and (max-width: 800px) {
   /* line 31, /Users/alasdairmonk/Sites/game/source/stylesheets/sponsor.scss */
-  .sponsor__link--uber img {
+  .sponsor__link--jameson img {
     width: 110px;
     display: block;
     clear: both; }
@@ -3786,7 +3786,7 @@ Copyright (c) 2014 Daniel Eden
     width: 110px;
     display: block;
     clear: both;
-    margin-left: 0px; } }
+    margin-left: 30px; } }
 /* line 1, /Users/alasdairmonk/Sites/game/source/stylesheets/hr.scss */
 .hr img {
   width: 583px;
